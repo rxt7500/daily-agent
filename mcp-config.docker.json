@@ -1,0 +1,22 @@
+{
+  "$comment": [
+    "Same three servers, reached over SSE instead of stdio.",
+    "Hostnames are the docker-compose service names; ports match the",
+    "MCP_PORT env var each server container is given.",
+    "Used by the `agent` service via --mcp-config."
+  ],
+  "mcpServers": {
+    "mining-news-mcp": {
+      "url": "http://mining-news-mcp:8001/sse",
+      "timeout": 90
+    },
+    "mineral-pdf-mcp": {
+      "url": "http://mineral-pdf-mcp:8002/sse",
+      "timeout": 90
+    },
+    "lme-price-mcp": {
+      "url": "http://lme-price-mcp:8003/sse",
+      "timeout": 90
+    }
+  }
+}

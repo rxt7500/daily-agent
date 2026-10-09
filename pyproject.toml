@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mining-daily-agent"
+version = "0.1.0"
+description = "矿权日报 Agent — 3 MCP servers (mining-news / mineral-pdf / lme-price) + 1 MCP agent client"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=1.9,<2",
+    "anthropic>=0.40",
+    "pdfplumber>=0.11",
+    "httpx>=0.27",
+    "pydantic>=2.7",
+    "python-dateutil>=2.9",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "reportlab>=4.0"]
+
+[project.scripts]
+mining-daily = "mining_agent.cli:main"
+mining-news-mcp = "mining_agent.servers.news:main"
+mineral-pdf-mcp = "mining_agent.servers.mineral_pdf:main"
+lme-price-mcp = "mining_agent.servers.lme_price:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-q"
+filterwarnings = ["ignore::DeprecationWarning"]

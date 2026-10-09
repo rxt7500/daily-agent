@@ -1,0 +1,7 @@
+# Runtime dependencies for mining-daily-agent (3 MCP servers + 1 agent client)
+mcp>=1.9,<2
+anthropic>=0.40
+pdfplumber>=0.11
+httpx>=0.27
+pydantic>=2.7
+python-dateutil>=2.9

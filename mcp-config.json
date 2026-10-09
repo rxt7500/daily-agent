@@ -1,0 +1,37 @@
+{
+  "$comment": [
+    "Drop-in MCP config for Claude Desktop / Cursor.",
+    "Prerequisite: `pip install -e .` from the repo root, so that",
+    "`python -m mining_agent.servers.*` resolves without PYTHONPATH help.",
+    "Data dir is found automatically relative to the package (data/fixtures).",
+    "Run `python scripts/render_mcp_config.py` to emit a variant with absolute",
+    "paths and a pinned interpreter, if you would rather not install the package."
+  ],
+  "mcpServers": {
+    "mining-news-mcp": {
+      "command": "python",
+      "args": ["-m", "mining_agent.servers.news"],
+      "env": {
+        "MINING_AGENT_DATA_MODE": "offline",
+        "MINING_AGENT_LOG_LEVEL": "WARNING"
+      }
+    },
+    "mineral-pdf-mcp": {
+      "command": "python",
+      "args": ["-m", "mining_agent.servers.mineral_pdf"],
+      "env": {
+        "MINING_AGENT_DATA_MODE": "offline",
+        "MINING_AGENT_PDF_PROVIDER": "offline",
+        "MINING_AGENT_LOG_LEVEL": "WARNING"
+      }
+    },
+    "lme-price-mcp": {
+      "command": "python",
+      "args": ["-m", "mining_agent.servers.lme_price"],
+      "env": {
+        "MINING_AGENT_DATA_MODE": "offline",
+        "MINING_AGENT_LOG_LEVEL": "WARNING"
+      }
+    }
+  }
+}

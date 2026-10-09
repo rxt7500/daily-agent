@@ -1,0 +1,114 @@
+# 5-minute demo:
+#   docker compose up --build        # runs the agent once and writes ./output/briefing.md
+#   docker compose up -d mining-news-mcp mineral-pdf-mcp lme-price-mcp
+#                                    # servers only — attach any MCP client to :8001-8003/sse
+#
+# The agent talks to the servers over MCP's SSE transport, so the three server
+# containers are genuinely independent processes reachable by URL — not
+# subprocesses of the agent.
+
+name: mining-daily-agent
+
+x-mcp-server: &mcp-server
+  build: .
+  restart: unless-stopped
+  environment: &mcp-env
+    MCP_TRANSPORT: sse
+    MCP_HOST: 0.0.0.0
+    MINING_AGENT_DATA_MODE: offline
+    MINING_AGENT_LOG_LEVEL: INFO
+
+services:
+  mining-news-mcp:
+    <<: *mcp-server
+    command: ["python", "-m", "mining_agent.servers.news"]
+    environment:
+      <<: *mcp-env
+      MCP_PORT: "8001"
+      # MCP's SSE transport validates the Host header (DNS-rebinding guard) and
+      # only accepts localhost by default — the compose service name has to be
+      # allow-listed or every connection is rejected with 421.
+      MCP_ALLOWED_HOSTS: "mining-news-mcp:8001,localhost:8001,127.0.0.1:8001"
+    ports:
+      - "8001:8001"
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - "import socket,sys; s=socket.socket(); s.settimeout(2); sys.exit(0 if s.connect_ex(('127.0.0.1',8001))==0 else 1)"
+      interval: 5s
+      timeout: 3s
+      retries: 12
+      start_period: 5s
+
+  mineral-pdf-mcp:
+    <<: *mcp-server
+    command: ["python", "-m", "mining_agent.servers.mineral_pdf"]
+    environment:
+      <<: *mcp-env
+      MCP_PORT: "8002"
+      MINING_AGENT_PDF_PROVIDER: offline
+      MCP_ALLOWED_HOSTS: "mineral-pdf-mcp:8002,localhost:8002,127.0.0.1:8002"
+    ports:
+      - "8002:8002"
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - "import socket,sys; s=socket.socket(); s.settimeout(2); sys.exit(0 if s.connect_ex(('127.0.0.1',8002))==0 else 1)"
+      interval: 5s
+      timeout: 3s
+      retries: 12
+      start_period: 5s
+
+  lme-price-mcp:
+    <<: *mcp-server
+    command: ["python", "-m", "mining_agent.servers.lme_price"]
+    environment:
+      <<: *mcp-env
+      MCP_PORT: "8003"
+      MCP_ALLOWED_HOSTS: "lme-price-mcp:8003,localhost:8003,127.0.0.1:8003"
+    ports:
+      - "8003:8003"
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - "import socket,sys; s=socket.socket(); s.settimeout(2); sys.exit(0 if s.connect_ex(('127.0.0.1',8003))==0 else 1)"
+      interval: 5s
+      timeout: 3s
+      retries: 12
+      start_period: 5s
+
+  agent:
+    build: .
+    depends_on:
+      mining-news-mcp:
+        condition: service_healthy
+      mineral-pdf-mcp:
+        condition: service_healthy
+      lme-price-mcp:
+        condition: service_healthy
+    environment:
+      MINING_AGENT_DATA_MODE: offline
+      MINING_AGENT_LOG_LEVEL: INFO
+      # Optional: export ANTHROPIC_API_KEY before `docker compose up` to use the
+      # ReAct planner. Without it the deterministic planner runs instead.
+      ANTHROPIC_API_KEY: "${ANTHROPIC_API_KEY:-}"
+      MINING_AGENT_MODEL: "${MINING_AGENT_MODEL:-claude-opus-5}"
+    volumes:
+      - ./output:/app/output
+    command:
+      - python
+      - -m
+      - mining_agent
+      - "给我生成一份关于 Pilbara 锂矿的今日简报"
+      - --mcp-config
+      - /app/mcp-config.docker.json
+      - --out
+      - /app/output/briefing.md
+      - --json
+      - --print

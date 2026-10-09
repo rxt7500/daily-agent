@@ -1,0 +1,29 @@
+{
+  "fixture_as_of": "2026-10-08",
+  "generated_by": "scripts/make_fixtures.py",
+  "synthetic": true,
+  "disclaimer": "SYNTHETIC DEMO DATA. Company names, project names, resource figures, news headlines and prices in this fixture set are fabricated for demonstration purposes. They are modelled on real hard-rock lithium mining but do not describe any real company, project or market price.",
+  "files": {
+    "prices.csv": {
+      "rows": 5225,
+      "commodities": [
+        "copper",
+        "lithium-carbonate",
+        "lithium-hydroxide",
+        "nickel",
+        "spodumene"
+      ]
+    },
+    "news_corpus.jsonl": {
+      "rows": 19
+    },
+    "ni43-101_pilbara_lithium.pdf": {
+      "projects": [
+        "Mt Pilbara Lithium Project",
+        "Yarrie Ridge Lithium Project",
+        "Coongan Gap Lithium Project"
+      ],
+      "bytes": 6742
+    }
+  }
+}

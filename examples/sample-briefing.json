@@ -1,0 +1,918 @@
+{
+  "query": "给我生成一份关于 Pilbara 锂矿的今日简报",
+  "ticker": "PLP.AX",
+  "generated_at": "2026-10-09T01:48:28.139505Z",
+  "reference_date": "2026-10-08",
+  "days": 7,
+  "mode": "offline",
+  "planner": "deterministic",
+  "model": null,
+  "news": [
+    {
+      "id": "plp-resource-upgrade",
+      "title": "Mt Pilbara Lithium lifts total resource to 99.3 Mt at 1.03% Li2O",
+      "summary": "Pilbara Lithium Ltd reported an updated mineral resource estimate for its flagship Mt Pilbara Lithium Project, with 72.6 Mt now classified Measured and Indicated. The company said drilling along the eastern corridor extended mineralisation 600 m beyond the previous pit shell.",
+      "url": "https://pilbara-mining-journal.example/2026-10-08/plp-resource-upgrade",
+      "source": "ASX Announcements Wire",
+      "published_at": "2026-10-08T07:00:00+08:00",
+      "tags": [
+        "resource-upgrade",
+        "drilling",
+        "lithium",
+        "pilbara"
+      ],
+      "projects": [
+        "Mt Pilbara Lithium Project"
+      ],
+      "tickers": [
+        "PLP.AX"
+      ],
+      "body": null,
+      "score": 12.5
+    },
+    {
+      "id": "plp-approval",
+      "title": "Mt Pilbara expansion clears state environmental approval with conditions",
+      "summary": "Western Australian regulators granted approval for the Mt Pilbara expansion, attaching conditions covering groundwater drawdown monitoring, dust suppression and a revised closure plan. The approval triggers a four-week appeals window.",
+      "url": "https://pilbara-mining-journal.example/2026-10-05/plp-approval",
+      "source": "ASX Announcements Wire",
+      "published_at": "2026-10-05T07:21:00+08:00",
+      "tags": [
+        "permitting",
+        "approval",
+        "environment",
+        "regulation",
+        "pilbara"
+      ],
+      "projects": [
+        "Mt Pilbara Lithium Project"
+      ],
+      "tickers": [
+        "PLP.AX"
+      ],
+      "body": null,
+      "score": 12.286
+    },
+    {
+      "id": "plp-guidance",
+      "title": "Pilbara Lithium trims FY27 shipment guidance after plant downtime",
+      "summary": "Pilbara Lithium Ltd narrowed FY27 shipment guidance to 620,000-660,000 dry metric tonnes from 680,000-720,000 previously, citing an unplanned 11-day outage at the primary crushing circuit in September.",
+      "url": "https://pilbara-mining-journal.example/2026-10-01/plp-guidance",
+      "source": "ASX Announcements Wire",
+      "published_at": "2026-10-01T08:49:00+08:00",
+      "tags": [
+        "guidance",
+        "production",
+        "downtime",
+        "risk"
+      ],
+      "projects": [
+        "Mt Pilbara Lithium Project"
+      ],
+      "tickers": [
+        "PLP.AX"
+      ],
+      "body": null,
+      "score": 9.5
+    },
+    {
+      "id": "pilbara-port-queue",
+      "title": "Port Hedland queue lengthens as lithium concentrate shipments bunch",
+      "summary": "Vessel waiting times at Port Hedland extended to four days as a cluster of concentrate cargoes arrived together. Operators said the congestion was scheduling-related rather than a capacity constraint.",
+      "url": "https://pilbara-mining-journal.example/2026-10-07/pilbara-port-queue",
+      "source": "Resource Sector Monitor",
+      "published_at": "2026-10-07T08:07:00+08:00",
+      "tags": [
+        "logistics",
+        "port",
+        "shipping",
+        "pilbara"
+      ],
+      "projects": [],
+      "tickers": [],
+      "body": null,
+      "score": 3.429
+    },
+    {
+      "id": "yrl-offtake",
+      "title": "Yarrie Ridge signs binding offtake for 120,000 t/y of spodumene concentrate",
+      "summary": "Westralian Resources Ltd executed a five-year binding offtake covering 120,000 dry metric tonnes per year of 6% Li2O spodumene concentrate from the Yarrie Ridge Lithium Project, priced against a published concentrate index with a floor and ceiling mechanism.",
+      "url": "https://pilbara-mining-journal.example/2026-10-07/yrl-offtake",
+      "source": "Pilbara Mining Journal",
+      "published_at": "2026-10-07T08:07:00+08:00",
+      "tags": [
+        "offtake",
+        "spodumene",
+        "of-take",
+        "contract"
+      ],
+      "projects": [
+        "Yarrie Ridge Lithium Project"
+      ],
+      "tickers": [
+        "WRL.AX"
+      ],
+      "body": null,
+      "score": 2.929
+    },
+    {
+      "id": "wrl-financing",
+      "title": "Westralian Resources raises A$180m placement to fund Yarrie Ridge",
+      "summary": "Westralian Resources Ltd completed a A$180 million institutional placement at A$1.42 per share to fund construction at Yarrie Ridge. The raise was upsized from A$150 million on strong demand.",
+      "url": "https://pilbara-mining-journal.example/2026-10-04/wrl-financing",
+      "source": "ASX Announcements Wire",
+      "published_at": "2026-10-04T08:28:00+08:00",
+      "tags": [
+        "financing",
+        "placement",
+        "capital-raise"
+      ],
+      "projects": [
+        "Yarrie Ridge Lithium Project"
+      ],
+      "tickers": [
+        "WRL.AX"
+      ],
+      "body": null,
+      "score": 2.214
+    },
+    {
+      "id": "hdy-heritage-survey",
+      "title": "Hardey Minerals completes heritage survey over Coongan Gap access road",
+      "summary": "Hardey Minerals Ltd said a heritage survey over the proposed Coongan Gap access corridor has been completed, clearing the way for civil works to start next quarter subject to final approvals.",
+      "url": "https://pilbara-mining-journal.example/2026-10-02/hdy-heritage-survey",
+      "source": "Pilbara Mining Journal",
+      "published_at": "2026-10-02T07:42:00+08:00",
+      "tags": [
+        "heritage",
+        "approvals",
+        "community",
+        "permitting"
+      ],
+      "projects": [
+        "Coongan Gap Lithium Project"
+      ],
+      "tickers": [
+        "HDY.AX"
+      ],
+      "body": null,
+      "score": 0.571
+    }
+  ],
+  "articles": [
+    {
+      "url": "https://pilbara-mining-journal.example/2026-10-08/plp-resource-upgrade",
+      "title": "Mt Pilbara Lithium lifts total resource to 99.3 Mt at 1.03% Li2O",
+      "source": "ASX Announcements Wire",
+      "published_at": "2026-10-08T07:00:00+08:00",
+      "body": "Pilbara Lithium Ltd reported an updated mineral resource estimate for its flagship Mt Pilbara Lithium Project, with 72.6 Mt now classified Measured and Indicated. The company said drilling along the eastern corridor extended mineralisation 600 m beyond the previous pit shell. This article is part of the synthetic demo corpus shipped with mining-daily-agent and does not describe a real event. Reported by the ASX Announcements Wire desk. Related coverage: resource-upgrade, drilling, lithium, pilbara.",
+      "mode": "offline"
+    },
+    {
+      "url": "https://pilbara-mining-journal.example/2026-10-05/plp-approval",
+      "title": "Mt Pilbara expansion clears state environmental approval with conditions",
+      "source": "ASX Announcements Wire",
+      "published_at": "2026-10-05T07:21:00+08:00",
+      "body": "Western Australian regulators granted approval for the Mt Pilbara expansion, attaching conditions covering groundwater drawdown monitoring, dust suppression and a revised closure plan. The approval triggers a four-week appeals window. This article is part of the synthetic demo corpus shipped with mining-daily-agent and does not describe a real event. Reported by the ASX Announcements Wire desk. Related coverage: permitting, approval, environment, regulation, pilbara.",
+      "mode": "offline"
+    },
+    {
+      "url": "https://pilbara-mining-journal.example/2026-10-01/plp-guidance",
+      "title": "Pilbara Lithium trims FY27 shipment guidance after plant downtime",
+      "source": "ASX Announcements Wire",
+      "published_at": "2026-10-01T08:49:00+08:00",
+      "body": "Pilbara Lithium Ltd narrowed FY27 shipment guidance to 620,000-660,000 dry metric tonnes from 680,000-720,000 previously, citing an unplanned 11-day outage at the primary crushing circuit in September. This article is part of the synthetic demo corpus shipped with mining-daily-agent and does not describe a real event. Reported by the ASX Announcements Wire desk. Related coverage: guidance, production, downtime, risk.",
+      "mode": "offline"
+    }
+  ],
+  "resource_tables": [
+    {
+      "project": "Mt Pilbara Lithium Project",
+      "commodity": "Li2O",
+      "effective_date": "30 September 2026",
+      "cut_off_grade": "0.40% Li2O",
+      "rows": [
+        {
+          "project": "Mt Pilbara Lithium Project",
+          "category": "Measured",
+          "raw_label": "Measured",
+          "commodity": "Li2O",
+          "tonnes_mt": 18.4,
+          "grade": 1.16,
+          "grade_unit": "%",
+          "contained_metal_t": 213440.0,
+          "contained_lce_kt": 527.8,
+          "effective_date": "30 September 2026",
+          "source_page": 2
+        },
+        {
+          "project": "Mt Pilbara Lithium Project",
+          "category": "Indicated",
+          "raw_label": "Indicated",
+          "commodity": "Li2O",
+          "tonnes_mt": 54.2,
+          "grade": 1.03,
+          "grade_unit": "%",
+          "contained_metal_t": 558260.0,
+          "contained_lce_kt": 1380.5,
+          "effective_date": "30 September 2026",
+          "source_page": 2
+        },
+        {
+          "project": "Mt Pilbara Lithium Project",
+          "category": "Total",
+          "raw_label": "Measured + Indicated",
+          "commodity": "Li2O",
+          "tonnes_mt": 72.6,
+          "grade": 1.06,
+          "grade_unit": "%",
+          "contained_metal_t": 769560.0,
+          "contained_lce_kt": 1903.0,
+          "effective_date": "30 September 2026",
+          "source_page": 2
+        },
+        {
+          "project": "Mt Pilbara Lithium Project",
+          "category": "Inferred",
+          "raw_label": "Inferred",
+          "commodity": "Li2O",
+          "tonnes_mt": 26.7,
+          "grade": 0.91,
+          "grade_unit": "%",
+          "contained_metal_t": 242970.0,
+          "contained_lce_kt": 600.8,
+          "effective_date": "30 September 2026",
+          "source_page": 2
+        },
+        {
+          "project": "Mt Pilbara Lithium Project",
+          "category": "Total",
+          "raw_label": "Total",
+          "commodity": "Li2O",
+          "tonnes_mt": 99.3,
+          "grade": 1.03,
+          "grade_unit": "%",
+          "contained_metal_t": 1022790.0,
+          "contained_lce_kt": 2529.2,
+          "effective_date": "30 September 2026",
+          "source_page": 2
+        }
+      ],
+      "source": "file:///app/data/fixtures/ni43-101_pilbara_lithium.pdf",
+      "source_page": 2
+    },
+    {
+      "project": "Yarrie Ridge Lithium Project",
+      "commodity": "Li2O",
+      "effective_date": "30 September 2026",
+      "cut_off_grade": "0.45% Li2O",
+      "rows": [
+        {
+          "project": "Yarrie Ridge Lithium Project",
+          "category": "Indicated",
+          "raw_label": "Indicated",
+          "commodity": "Li2O",
+          "tonnes_mt": 24.6,
+          "grade": 1.19,
+          "grade_unit": "%",
+          "contained_metal_t": 292740.0,
+          "contained_lce_kt": 723.9,
+          "effective_date": "30 September 2026",
+          "source_page": 3
+        },
+        {
+          "project": "Yarrie Ridge Lithium Project",
+          "category": "Inferred",
+          "raw_label": "Inferred",
+          "commodity": "Li2O",
+          "tonnes_mt": 15.3,
+          "grade": 1.04,
+          "grade_unit": "%",
+          "contained_metal_t": 159120.0,
+          "contained_lce_kt": 393.5,
+          "effective_date": "30 September 2026",
+          "source_page": 3
+        },
+        {
+          "project": "Yarrie Ridge Lithium Project",
+          "category": "Total",
+          "raw_label": "Total",
+          "commodity": "Li2O",
+          "tonnes_mt": 39.9,
+          "grade": 1.13,
+          "grade_unit": "%",
+          "contained_metal_t": 450870.0,
+          "contained_lce_kt": 1114.9,
+          "effective_date": "30 September 2026",
+          "source_page": 3
+        }
+      ],
+      "source": "file:///app/data/fixtures/ni43-101_pilbara_lithium.pdf",
+      "source_page": 3
+    },
+    {
+      "project": "Coongan Gap Lithium Project",
+      "commodity": "Li2O",
+      "effective_date": "30 September 2026",
+      "cut_off_grade": "0.50% Li2O",
+      "rows": [
+        {
+          "project": "Coongan Gap Lithium Project",
+          "category": "Inferred",
+          "raw_label": "Inferred",
+          "commodity": "Li2O",
+          "tonnes_mt": 11.2,
+          "grade": 0.86,
+          "grade_unit": "%",
+          "contained_metal_t": 96320.0,
+          "contained_lce_kt": 238.2,
+          "effective_date": "30 September 2026",
+          "source_page": 4
+        },
+        {
+          "project": "Coongan Gap Lithium Project",
+          "category": "Total",
+          "raw_label": "Total",
+          "commodity": "Li2O",
+          "tonnes_mt": 11.2,
+          "grade": 0.86,
+          "grade_unit": "%",
+          "contained_metal_t": 96320.0,
+          "contained_lce_kt": 238.2,
+          "effective_date": "30 September 2026",
+          "source_page": 4
+        }
+      ],
+      "source": "file:///app/data/fixtures/ni43-101_pilbara_lithium.pdf",
+      "source_page": 4
+    }
+  ],
+  "price_trends": [
+    {
+      "commodity": "lithium-carbonate",
+      "unit": "USD/t",
+      "currency": "USD",
+      "days": 30,
+      "start": "2026-09-08",
+      "end": "2026-10-08",
+      "points": [
+        {
+          "date": "2026-09-08",
+          "close": 8592.1
+        },
+        {
+          "date": "2026-09-09",
+          "close": 8759.4
+        },
+        {
+          "date": "2026-09-10",
+          "close": 8718.4
+        },
+        {
+          "date": "2026-09-11",
+          "close": 8729.6
+        },
+        {
+          "date": "2026-09-14",
+          "close": 8684.1
+        },
+        {
+          "date": "2026-09-15",
+          "close": 8475.5
+        },
+        {
+          "date": "2026-09-16",
+          "close": 8411.7
+        },
+        {
+          "date": "2026-09-17",
+          "close": 8450.5
+        },
+        {
+          "date": "2026-09-18",
+          "close": 8471.9
+        },
+        {
+          "date": "2026-09-21",
+          "close": 8448.0
+        },
+        {
+          "date": "2026-09-22",
+          "close": 8192.3
+        },
+        {
+          "date": "2026-09-23",
+          "close": 8329.7
+        },
+        {
+          "date": "2026-09-24",
+          "close": 8410.5
+        },
+        {
+          "date": "2026-09-25",
+          "close": 8527.9
+        },
+        {
+          "date": "2026-09-28",
+          "close": 8679.8
+        },
+        {
+          "date": "2026-09-29",
+          "close": 8622.2
+        },
+        {
+          "date": "2026-09-30",
+          "close": 8545.7
+        },
+        {
+          "date": "2026-10-01",
+          "close": 8580.0
+        },
+        {
+          "date": "2026-10-02",
+          "close": 8777.6
+        },
+        {
+          "date": "2026-10-05",
+          "close": 8566.7
+        },
+        {
+          "date": "2026-10-06",
+          "close": 8535.8
+        },
+        {
+          "date": "2026-10-07",
+          "close": 8446.9
+        },
+        {
+          "date": "2026-10-08",
+          "close": 8509.9
+        }
+      ],
+      "latest": 8509.9,
+      "change_pct": -0.96,
+      "change_abs": -82.2,
+      "high": 8777.6,
+      "low": 8192.3,
+      "volatility_pct": 1.43,
+      "source": "offline fixture series (prices.csv)",
+      "mode": "offline"
+    },
+    {
+      "commodity": "spodumene",
+      "unit": "USD/t",
+      "currency": "USD",
+      "days": 30,
+      "start": "2026-09-08",
+      "end": "2026-10-08",
+      "points": [
+        {
+          "date": "2026-09-08",
+          "close": 763.0
+        },
+        {
+          "date": "2026-09-09",
+          "close": 766.0
+        },
+        {
+          "date": "2026-09-10",
+          "close": 774.8
+        },
+        {
+          "date": "2026-09-11",
+          "close": 791.1
+        },
+        {
+          "date": "2026-09-14",
+          "close": 762.6
+        },
+        {
+          "date": "2026-09-15",
+          "close": 754.9
+        },
+        {
+          "date": "2026-09-16",
+          "close": 761.4
+        },
+        {
+          "date": "2026-09-17",
+          "close": 748.2
+        },
+        {
+          "date": "2026-09-18",
+          "close": 768.1
+        },
+        {
+          "date": "2026-09-21",
+          "close": 766.9
+        },
+        {
+          "date": "2026-09-22",
+          "close": 774.2
+        },
+        {
+          "date": "2026-09-23",
+          "close": 771.5
+        },
+        {
+          "date": "2026-09-24",
+          "close": 775.7
+        },
+        {
+          "date": "2026-09-25",
+          "close": 780.6
+        },
+        {
+          "date": "2026-09-28",
+          "close": 787.2
+        },
+        {
+          "date": "2026-09-29",
+          "close": 769.8
+        },
+        {
+          "date": "2026-09-30",
+          "close": 746.2
+        },
+        {
+          "date": "2026-10-01",
+          "close": 745.1
+        },
+        {
+          "date": "2026-10-02",
+          "close": 754.5
+        },
+        {
+          "date": "2026-10-05",
+          "close": 751.4
+        },
+        {
+          "date": "2026-10-06",
+          "close": 749.4
+        },
+        {
+          "date": "2026-10-07",
+          "close": 762.1
+        },
+        {
+          "date": "2026-10-08",
+          "close": 770.0
+        }
+      ],
+      "latest": 770.0,
+      "change_pct": 0.92,
+      "change_abs": 7.0,
+      "high": 791.1,
+      "low": 745.1,
+      "volatility_pct": 1.59,
+      "source": "offline fixture series (prices.csv)",
+      "mode": "offline"
+    }
+  ],
+  "quotes": [
+    {
+      "commodity": "lithium-carbonate",
+      "date": "2026-10-08",
+      "close": 8509.9,
+      "unit": "USD/t",
+      "currency": "USD",
+      "source": "offline fixture series (prices.csv)",
+      "mode": "offline"
+    },
+    {
+      "commodity": "spodumene",
+      "date": "2026-10-08",
+      "close": 770.0,
+      "unit": "USD/t",
+      "currency": "USD",
+      "source": "offline fixture series (prices.csv)",
+      "mode": "offline"
+    }
+  ],
+  "risks": [
+    {
+      "title": "Coongan Gap Lithium Project 资源类别偏低",
+      "severity": "high",
+      "detail": "Inferred 资源占 Li2CO3 当量的 100%（238 kt / 238 kt）。Inferred 类别置信度低，通常不能直接进入储量与可行性研究，需要加密钻探后方可转化。",
+      "evidence": [
+        8
+      ],
+      "source": "rule-engine"
+    },
+    {
+      "title": "Coongan Gap Lithium Project 无 Measured/Indicated 资源",
+      "severity": "high",
+      "detail": "该技术报告中的资源量全部为 Inferred 类别，尚无 Measured 或 Indicated 级别资源，项目处于早期勘探阶段。",
+      "evidence": [
+        8
+      ],
+      "source": "rule-engine"
+    },
+    {
+      "title": "Yarrie Ridge Lithium Project 资源类别偏低",
+      "severity": "medium",
+      "detail": "Inferred 资源占 Li2CO3 当量的 35%（394 kt / 1,115 kt）。Inferred 类别置信度低，通常不能直接进入储量与可行性研究，需要加密钻探后方可转化。",
+      "evidence": [
+        8
+      ],
+      "source": "rule-engine"
+    },
+    {
+      "title": "审批申诉（新闻面）",
+      "severity": "medium",
+      "detail": "相关报道：Mt Pilbara expansion clears state environmental approval with conditions。",
+      "evidence": [
+        2
+      ],
+      "source": "rule-engine"
+    },
+    {
+      "title": "非计划停产（新闻面）",
+      "severity": "medium",
+      "detail": "相关报道：Pilbara Lithium trims FY27 shipment guidance after plant downtime。",
+      "evidence": [
+        3
+      ],
+      "source": "rule-engine"
+    },
+    {
+      "title": "许可与合规（新闻面）",
+      "severity": "medium",
+      "detail": "相关报道：Hardey Minerals completes heritage survey over Coongan Gap access road。",
+      "evidence": [
+        7
+      ],
+      "source": "rule-engine"
+    },
+    {
+      "title": "数据来源为离线夹具",
+      "severity": "medium",
+      "detail": "本次运行使用仓库内置的合成演示数据集（news=offline, price=offline, pdf=offline）。所有数字仅用于验证流程，不可用于投资决策。",
+      "evidence": [],
+      "source": "rule-engine"
+    },
+    {
+      "title": "Mt Pilbara Lithium Project 边界品位口径",
+      "severity": "low",
+      "detail": "资源量按边界品位 0.40% Li2O 报告（生效日 30 September 2026）。跨项目比较资源量时必须先对齐边界品位口径。",
+      "evidence": [
+        8
+      ],
+      "source": "rule-engine"
+    }
+  ],
+  "narrative": {
+    "executive_summary": "报告期锚定 2026-10-08，共执行 10 次工具调用。近 7 天共检索到 7 条相关新闻，其中 3 条已读取全文。 主要风险集中在：Coongan Gap Lithium Project 资源类别偏低、Coongan Gap Lithium Project 无 Measured/Indicated 资源、Yarrie Ridge Lithium Project 资源类别偏低。",
+    "key_findings": [
+      "近 7 天共检索到 7 条相关新闻，其中 3 条已读取全文。",
+      "lithium-carbonate 最新价 8,510 USD/t，近 30 天 -1.0%，区间 8,192–8,778，日波动率 1.43%。",
+      "spodumene 最新价 770 USD/t，近 30 天 +0.9%，区间 745–791，日波动率 1.59%。",
+      "Mt Pilbara Lithium Project 总资源量 99.3 Mt @ 1.03% Li2O（约 2,529 kt LCE，生效日 30 September 2026）。",
+      "Yarrie Ridge Lithium Project 总资源量 39.9 Mt @ 1.13% Li2O（约 1,115 kt LCE，生效日 30 September 2026）。",
+      "Coongan Gap Lithium Project 总资源量 11.2 Mt @ 0.86% Li2O（约 238 kt LCE，生效日 30 September 2026）。"
+    ],
+    "news_highlights": [
+      {
+        "citation_index": 1,
+        "note": "ASX Announcements Wire：Pilbara Lithium Ltd reported an updated mineral resource estimate for its flagship Mt Pilbara Lithium Project, with 72.6"
+      },
+      {
+        "citation_index": 2,
+        "note": "ASX Announcements Wire：Western Australian regulators granted approval for the Mt Pilbara expansion, attaching conditions covering groundwater d"
+      },
+      {
+        "citation_index": 3,
+        "note": "ASX Announcements Wire：Pilbara Lithium Ltd narrowed FY27 shipment guidance to 620,000-660,000 dry metric tonnes from 680,000-720,000 previously"
+      }
+    ],
+    "risks": [
+      {
+        "title": "Coongan Gap Lithium Project 资源类别偏低",
+        "severity": "high",
+        "detail": "Inferred 资源占 Li2CO3 当量的 100%（238 kt / 238 kt）。Inferred 类别置信度低，通常不能直接进入储量与可行性研究，需要加密钻探后方可转化。",
+        "evidence": [
+          8
+        ],
+        "source": "rule-engine"
+      },
+      {
+        "title": "Coongan Gap Lithium Project 无 Measured/Indicated 资源",
+        "severity": "high",
+        "detail": "该技术报告中的资源量全部为 Inferred 类别，尚无 Measured 或 Indicated 级别资源，项目处于早期勘探阶段。",
+        "evidence": [
+          8
+        ],
+        "source": "rule-engine"
+      },
+      {
+        "title": "Yarrie Ridge Lithium Project 资源类别偏低",
+        "severity": "medium",
+        "detail": "Inferred 资源占 Li2CO3 当量的 35%（394 kt / 1,115 kt）。Inferred 类别置信度低，通常不能直接进入储量与可行性研究，需要加密钻探后方可转化。",
+        "evidence": [
+          8
+        ],
+        "source": "rule-engine"
+      },
+      {
+        "title": "审批申诉（新闻面）",
+        "severity": "medium",
+        "detail": "相关报道：Mt Pilbara expansion clears state environmental approval with conditions。",
+        "evidence": [
+          2
+        ],
+        "source": "rule-engine"
+      },
+      {
+        "title": "非计划停产（新闻面）",
+        "severity": "medium",
+        "detail": "相关报道：Pilbara Lithium trims FY27 shipment guidance after plant downtime。",
+        "evidence": [
+          3
+        ],
+        "source": "rule-engine"
+      },
+      {
+        "title": "许可与合规（新闻面）",
+        "severity": "medium",
+        "detail": "相关报道：Hardey Minerals completes heritage survey over Coongan Gap access road。",
+        "evidence": [
+          7
+        ],
+        "source": "rule-engine"
+      },
+      {
+        "title": "数据来源为离线夹具",
+        "severity": "medium",
+        "detail": "本次运行使用仓库内置的合成演示数据集（news=offline, price=offline, pdf=offline）。所有数字仅用于验证流程，不可用于投资决策。",
+        "evidence": [],
+        "source": "rule-engine"
+      },
+      {
+        "title": "Mt Pilbara Lithium Project 边界品位口径",
+        "severity": "low",
+        "detail": "资源量按边界品位 0.40% Li2O 报告（生效日 30 September 2026）。跨项目比较资源量时必须先对齐边界品位口径。",
+        "evidence": [
+          8
+        ],
+        "source": "rule-engine"
+      }
+    ],
+    "outlook": "跟踪要点：锂盐现货价与锂辉石精矿指数的周度变化；审批与许可进程（含申诉窗口与水资源分配）；下一次资源量更新与 Inferred→Indicated 的转化进度。"
+  },
+  "citations": [
+    {
+      "index": 1,
+      "label": "Mt Pilbara Lithium lifts total resource to 99.3 Mt at 1.03% Li2O",
+      "url": "https://pilbara-mining-journal.example/2026-10-08/plp-resource-upgrade",
+      "kind": "news"
+    },
+    {
+      "index": 2,
+      "label": "Mt Pilbara expansion clears state environmental approval with conditions",
+      "url": "https://pilbara-mining-journal.example/2026-10-05/plp-approval",
+      "kind": "news"
+    },
+    {
+      "index": 3,
+      "label": "Pilbara Lithium trims FY27 shipment guidance after plant downtime",
+      "url": "https://pilbara-mining-journal.example/2026-10-01/plp-guidance",
+      "kind": "news"
+    },
+    {
+      "index": 4,
+      "label": "Port Hedland queue lengthens as lithium concentrate shipments bunch",
+      "url": "https://pilbara-mining-journal.example/2026-10-07/pilbara-port-queue",
+      "kind": "news"
+    },
+    {
+      "index": 5,
+      "label": "Yarrie Ridge signs binding offtake for 120,000 t/y of spodumene concentrate",
+      "url": "https://pilbara-mining-journal.example/2026-10-07/yrl-offtake",
+      "kind": "news"
+    },
+    {
+      "index": 6,
+      "label": "Westralian Resources raises A$180m placement to fund Yarrie Ridge",
+      "url": "https://pilbara-mining-journal.example/2026-10-04/wrl-financing",
+      "kind": "news"
+    },
+    {
+      "index": 7,
+      "label": "Hardey Minerals completes heritage survey over Coongan Gap access road",
+      "url": "https://pilbara-mining-journal.example/2026-10-02/hdy-heritage-survey",
+      "kind": "news"
+    },
+    {
+      "index": 8,
+      "label": "ni43-101_pilbara_lithium.pdf",
+      "url": "file:///app/data/fixtures/ni43-101_pilbara_lithium.pdf",
+      "kind": "document"
+    },
+    {
+      "index": 9,
+      "label": "lithium-carbonate price series — offline fixture series (prices.csv)",
+      "url": "offline fixture series (prices.csv)",
+      "kind": "data"
+    }
+  ],
+  "tool_calls": [
+    {
+      "tool": "mining-news-mcp__search",
+      "arguments": {
+        "query": "Pilbara 锂矿",
+        "days": 7,
+        "limit": 8
+      },
+      "ok": true,
+      "citations": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "tool": "mining-news-mcp__fetch_article",
+      "arguments": {
+        "url": "https://pilbara-mining-journal.example/2026-10-08/plp-resource-upgrade"
+      },
+      "ok": true,
+      "citations": []
+    },
+    {
+      "tool": "mining-news-mcp__fetch_article",
+      "arguments": {
+        "url": "https://pilbara-mining-journal.example/2026-10-05/plp-approval"
+      },
+      "ok": true,
+      "citations": []
+    },
+    {
+      "tool": "mining-news-mcp__fetch_article",
+      "arguments": {
+        "url": "https://pilbara-mining-journal.example/2026-10-01/plp-guidance"
+      },
+      "ok": true,
+      "citations": []
+    },
+    {
+      "tool": "mineral-pdf-mcp__list_documents",
+      "arguments": {},
+      "ok": true,
+      "citations": [
+        8
+      ]
+    },
+    {
+      "tool": "mineral-pdf-mcp__extract_resources",
+      "arguments": {
+        "pdf_url": "file:///app/data/fixtures/ni43-101_pilbara_lithium.pdf"
+      },
+      "ok": true,
+      "citations": []
+    },
+    {
+      "tool": "lme-price-mcp__get_price",
+      "arguments": {
+        "commodity": "lithium-carbonate"
+      },
+      "ok": true,
+      "citations": [
+        9
+      ]
+    },
+    {
+      "tool": "lme-price-mcp__get_trend",
+      "arguments": {
+        "commodity": "lithium-carbonate",
+        "days": 30
+      },
+      "ok": true,
+      "citations": []
+    },
+    {
+      "tool": "lme-price-mcp__get_price",
+      "arguments": {
+        "commodity": "spodumene"
+      },
+      "ok": true,
+      "citations": []
+    },
+    {
+      "tool": "lme-price-mcp__get_trend",
+      "arguments": {
+        "commodity": "spodumene",
+        "days": 30
+      },
+      "ok": true,
+      "citations": []
+    }
+  ],
+  "warnings": [
+    "未配置 ANTHROPIC_API_KEY，本次使用规则化规划器（--no-llm 等价）"
+  ],
+  "usage": {}
+}
